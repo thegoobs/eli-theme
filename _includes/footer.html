@@ -1,0 +1,18 @@
+<footer>
+	<div class="container footer-container">
+		<div class="footer-list">
+			<h6>{{site.title}}</h6>
+			<hr/>
+			<ul>
+				{% for page in site.pages %}
+					{% if page.title %}
+						<li><a href={{ page.url | relative_url }}>{{page.title}}</a></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+		<div class="footer-desc">
+			{{ site.description }}
+		</div>
+	</div>
+</footer>

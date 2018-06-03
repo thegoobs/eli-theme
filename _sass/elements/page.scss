@@ -1,0 +1,23 @@
+.page-box {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 1px 2px 3px #ddd;
+	margin: 12px 8%;
+	padding: 0 24px;
+
+	@media screen and (max-width: $screen_small) {
+		margin: 12px;
+		padding: 0 12px;
+	}
+}
+
+.page-title {
+	margin: 12px 0 0 0;
+}
+
+.page-desc {
+	font-family: $font_body;
+	font-style: italic;
+	font-weight: 300;
+	margin: 0;
+}

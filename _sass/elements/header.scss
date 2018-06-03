@@ -1,0 +1,28 @@
+.header-wrap {
+	background-color: #fff;
+	display: flex;
+	max-height: 50vw;
+	min-height: 35vw;
+	align-items: center;
+	margin: 0;
+	padding: 0 15vw;
+
+	@media screen and (max-width: $screen_small) {
+		height: 40vw;
+		justify-content: center;
+		& * {
+			text-align: center;
+		}
+	}
+}
+
+.site-title, .site-subtitle {
+	margin: 0;
+	letter-spacing: 0.1em;
+}
+
+.site-subtitle {
+	font-family: $font-body;
+	font-weight: 300;
+	font-style: italic;
+}

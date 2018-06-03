@@ -1,0 +1,85 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font_headers;
+	color: $color_1;
+	font-size: 24px;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.75rem;
+}
+
+h3 {
+	font-size: 2.5rem;
+}
+
+h4 {
+	font-size: 2.25rem;
+}
+
+h5 {
+	font-size: 2rem;
+}
+
+h6 {
+	font-size: 1.75rem;
+}
+
+p {
+	font-family: $font_body;
+	font-size: 1rem;
+}
+
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+a {
+	color: $color_1;
+	text-decoration: none;
+}
+
+blockquote {
+	background-color: #efefef;
+	padding: 12px;
+	margin: 12 24px;
+	font-style: italic;
+	color: #666;
+}
+
+@media screen and (max-width: $screen_small) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 2.25rem;
+	}
+
+	h3 {
+		font-size: 2rem;
+	}
+
+	h4 {
+		font-size: 1.75rem;
+	}
+
+	h5 {
+		font-size: 1.5rem;
+	}
+
+	h6 {
+		font-size: 1.25rem;
+	}
+
+	p {
+		font-family: $font_body;
+		font-size: 1rem;
+	}	
+}
