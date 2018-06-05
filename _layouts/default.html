@@ -7,7 +7,16 @@
 	{% include mobile-nav.html %}
 	{% include header.html %}
 	<div class="container">
-		{{ content }}
+		{% if page.post-index == true and post_size > 0 %}
+			<div class="post-index-box">
+				<div class="box">
+					{{ content }}
+				</div>
+				{% include post-index.html %}
+			</div>
+		{% else %}
+			{{content}}
+		{% endif %}
 	</div>
 
 	{% include footer.html %}

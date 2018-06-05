@@ -45,6 +45,11 @@ a {
 	text-decoration: none;
 }
 
+ul a {
+	font-family: $font_headers;
+	font-size: 0.9em;
+}
+
 blockquote {
 	background-color: #efefef;
 	padding: 12px;

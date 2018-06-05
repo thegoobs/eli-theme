@@ -3,8 +3,7 @@ body {
 }
 
 .container {
-	padding: 0 64px;
-	content-align: center;
+	padding: 0 10%;
 
 	@media screen and (max-width: $screen_small) {
 		padding: 0 24px;
@@ -16,5 +15,55 @@ body {
 
 	@media screen and (max-width: $screen_small) {
 		display: block;
+	}
+}
+
+
+.post-index-box {
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+
+	& .box {
+		width: 70%;
+	}
+
+	@media screen and (max-width: $screen_small) {
+		display: block;
+		& .box {
+			width: 100%;
+			margin-bottom: 48px;
+		}
+	}
+}
+
+.post-index {
+	width: 30%;
+	margin: 12px;
+	padding: 12px;
+	border: 1px solid red;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+
+	& h5 {
+		margin: 0;
+		text-align: center;
+	}
+
+	& .post-index-entry {
+		color: #999;
+	}
+
+	& .post-index-entry p {
+		color: $color_1;
+		width: 100%;
+		margin-bottom: 0;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	@media screen and (max-width: $screen_small) {
+		width: 100%;
 	}
 }

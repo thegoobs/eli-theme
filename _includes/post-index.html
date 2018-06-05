@@ -1,0 +1,25 @@
+<div class="post-index">
+	<h5>Posts</h5>
+	<hr/>
+	<ul>
+		{% for post in site.posts %}
+			<li>
+				<a href={{ post.url }} class="post-index-entry">
+					<p>{{ post.title }}</p>
+					{% if post.date %}
+						<i class="fa fa-calendar"></i>
+						<span>{{ post.date | date: "%m / %y"}}</span>
+					{% endif %}
+
+					{% if post.author %}
+						&nbsp
+						&nbsp
+						<i class="fa fa-user"></i>
+						<span>{{ post.author}}</span>
+					{% endif %}
+				</a>
+				<hr/>
+			</li>
+		{% endfor %}
+	</ul>
+</div>
