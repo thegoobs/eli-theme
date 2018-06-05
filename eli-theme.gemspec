@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "eli-theme"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["thegoobs"]
   spec.email         = ["guthrieschoolar95@gmail.com"]
 
