@@ -31,7 +31,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+The main layout used throughout all of the pages in the theme use the default layout. This layout should be enough to get you started for your homepage and any other random text based pages you want to have.
 
 ## Contributing
 
