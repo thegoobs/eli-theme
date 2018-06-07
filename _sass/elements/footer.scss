@@ -1,7 +1,7 @@
 footer {
 	position: relative;
 	top: 100vw;
-	background-color: #ddd;
+	background-color: $color_text;
 	width: 100%;
 	min-height: 200px;
 	padding-top: 24px;
@@ -18,17 +18,22 @@ footer {
 	& h6 {
 		font-size: 24px;
 		margin: 0;
+		color: $color_base;
 	}
 
 	& hr {
 		margin-top: 0;
 		margin-bottom: 8px;
+		color: $color_base;
+		background-color: $color_base;
 	}
 
 	padding-bottom: 24px;
 	padding-right: 24px;
+	color: $color_base;
 }
 
 .footer-desc {
 	max-width: 66%;
+	color: $color_base;
 }
