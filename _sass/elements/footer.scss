@@ -31,6 +31,10 @@ footer {
 	padding-bottom: 24px;
 	padding-right: 24px;
 	color: $color_base;
+
+	& a {
+		color: $color_base;
+	}
 }
 
 .footer-desc {
