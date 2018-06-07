@@ -8,6 +8,7 @@
 	padding: 0 15vw;
 
 	@media screen and (max-width: $screen_small) {
+		padding-top: 64px;
 		height: 40vw;
 		justify-content: center;
 		& * {
