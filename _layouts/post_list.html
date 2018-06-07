@@ -1,0 +1,33 @@
+---
+layout: default
+post-index: false
+---
+
+<div class="container">
+	{% for post in site.posts %}
+		<div class="box">
+			<h6 class="post-list-title">{{post.title}}</h6>
+			<hr/>
+			<div class="post-excerpt">{{post.excerpt}}</div>
+			<div class="post-details">
+				<span>
+					{% if post.author %}
+						<i class="fa fa-user"></i>
+						&nbsp
+						{{post.author}}
+					{% endif %}
+				</span>
+				
+				<span>
+					{% if post.date %}
+						<i class="fa fa-calendar"></i>
+						&nbsp
+						{{post.date | date: "%m / %y"}}
+					{% endif %}
+				</span>
+			</div>
+		</div>
+	{% endfor %}
+</div>
+
+{{ content }}

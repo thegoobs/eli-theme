@@ -9,9 +9,10 @@
 	<div class="container">
 		{% if page.post-index == true and post_size > 0 %}
 			<div class="post-index-box">
-				<div class="box">
+				<div class="container">
 					{{ content }}
 				</div>
+				<br/>
 				{% include post-index.html %}
 			</div>
 		{% else %}
