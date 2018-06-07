@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color: $color_base;
 }
 
 .container {
@@ -58,11 +59,10 @@ body {
 	}
 
 	& .post-index-entry {
-		color: #999;
+		color: $color_text;
 	}
 
 	& .post-index-entry p {
-		color: $color_1;
 		width: 100%;
 		margin-bottom: 0;
 		white-space: nowrap;
@@ -71,6 +71,6 @@ body {
 	}
 
 	@media screen and (max-width: $screen_small) {
-		width: 100%;
+		width: auto;
 	}
 }

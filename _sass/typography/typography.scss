@@ -1,7 +1,7 @@
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font_headers;
-	color: $color_1;
 	font-size: 24px;
+	color: $color_text;
 }
 
 h1 {
@@ -41,7 +41,7 @@ ul {
 }
 
 a {
-	color: $color_1;
+	color: $color_text;
 	text-decoration: none;
 }
 

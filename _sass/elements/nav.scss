@@ -44,7 +44,7 @@ nav.navbar {
 	padding: 12px;
 	width: 25%;
 	min-width: 150px;
-	background-color: white;
+	background-color: $color_base;
 
 	& ul li {
 		font-family: $font_headers;
@@ -59,5 +59,6 @@ nav.navbar {
 	cursor: pointer;
 	border: 1px solid #ddd;
 	border-radius: 5px;
-	background-color: white;
+	background-color: $color_base;
+	color: $color_text;
 }
